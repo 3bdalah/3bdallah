@@ -1,0 +1,11 @@
+const posts = [
+    {
+      id:1,
+      slug:'first-post',
+      title_post:"hello one",
+      text_1 : "Magna quis quis non reprehenderit consequat eiusmod aliqua eiusmod veniam.",
+      text_2 : "Dolore excepteur mollit duis in incididunt dolor culpa dolore cillum.",
+      text_3 : "Ipsum fugiat do culpa consequat ut aute quis et."
+    }
+];
+export default posts;

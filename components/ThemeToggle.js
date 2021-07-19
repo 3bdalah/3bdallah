@@ -1,0 +1,27 @@
+import {BsToggleOn} from 'react-icons/bs'
+import { useEffect, useState } from 'react';
+// import { getStorageTheme } from './getTheme';
+// localStorage.getItem('theme');
+// const getStorageTheme = () => {
+//         let theme = "light";
+//         window.localStorage.setItem('theme', "dark");
+//         if (window.localStorage.getItem('theme')){
+//             theme = window.localStorage.getItem('theme');
+//         }
+//         return theme;
+// };
+const ThemeToggle = () => {
+    const [activeTheme,setActiveTheme] = useState("dark");
+    const inactivetheme  = activeTheme  === "light" ? "dark" : "light";
+    // useEffect((){})
+    useEffect(()=> {
+        document.body.dataset.theme = activeTheme;
+        window.localStorage.setItem('theme', JSON.stringify(activeTheme));
+    },[activeTheme])
+    return (<>
+      <button className="icon" type="button" onClick={()=> setActiveTheme(inactivetheme)}>
+         <BsToggleOn/>  
+      </button>
+    </>);
+}
+export default ThemeToggle;
