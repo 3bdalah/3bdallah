@@ -25,7 +25,7 @@ const Navbar = () => {
                   </div>
                   <ThemeToggle/>
                   
-                  {toggle? <MobileNav/> : null }
+                  {/* {toggle? <MobileNav/> : null } */}
                  <div className="menu" onClick={()=>setToggle(toggle => !toggle )}>  <AiOutlineMenu/></div>
             </nav>
           </div>
