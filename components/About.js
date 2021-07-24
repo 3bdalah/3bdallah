@@ -3,7 +3,7 @@ import about from "../data/About_data";
 
 const About = () => {
     return (<div className="detalies">
-        <h3 className="title">About-me</h3> 
+        <h5 className="title">About-me</h5> 
                 {about.map(part => {
                     return (
                         <p key={part.id} className="point-info">

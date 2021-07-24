@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Posts_data from '../../data/Posts_data';
 import Link from 'next/link';
+// import img from '../../public/images/me.jpg'
+import Image from 'next/dist/client/image';
 const Posts = () => {
     return (
     <>
@@ -11,16 +13,20 @@ const Posts = () => {
        <section className="blog">
         <div className="container">
             <div className="row">
-               <div className="col-lg-8 col-md-10 col-sm-12 mx-auto">
+                <h4 className="title">My Posts </h4>
+               <div className="col-lg-4 col-md-6 col-sm-12">
                 {Posts_data.map(post => {
-                        return (<div key={post.id} className="post">
-                                
-                            <h4 className="title">{post.title_post}</h4>
-                            <span>{post.text_2}</span><br/>
-                            <span>{post.text_1}</span>
-                            <p>{post.text_2}</p>
-                            <Link href={`/blog/`+post.id} className="read-more">Read More</Link>
-                            </div>
+                                return (<Link href={`/blog/`+post.id} className="read-more"key={post.id} ><a>
+                                <div className="post">
+                                <Image src={post.src} alt={post.name} width={1280} height={720} className="img-post"/>
+                            
+                                <div className="content-post">
+                                <h4 className="title-post">{post.title_post}</h4>
+                                <span>{post.text_2}</span><br/>
+                                </div>
+                                </div>
+                            </a>
+                        </Link>
                         )
                 })}
                </div>

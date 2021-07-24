@@ -28,9 +28,9 @@ export default function Home() {
                 <p className="text-center info-me">👋 Hi,I'm abdallah Frontend Engineer (junior), and a self-taught programmer the work I provide is of the highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
                 <div className="list-socail">
                     <ul className="list">
-                       <li><a href="https://twitter.com/3bdallahdev" target="_blank"><FiTwitter/></a></li>
-                       <li><a href="https://github.com/3bdalah" target="_blank"><FiGithub/></a></li>
-                       <li><a href="https://www.linkedin.com/in/abdallah-abdelghaffar-65136614b/" target="_blank"><FiLinkedin/></a></li>
+                       <li><a href="https://twitter.com/3bdallahdev" target="_blank" rel="noreferrer" ><FiTwitter/></a></li>
+                       <li><a href="https://github.com/3bdalah" target="_blank" rel="noreferrer"><FiGithub/></a></li>
+                       <li><a href="https://www.linkedin.com/in/abdallah-abdelghaffar-65136614b/" target="_blank" rel="noreferrer"><FiLinkedin/></a></li>
                     </ul>
                 </div>
               
@@ -39,22 +39,21 @@ export default function Home() {
                 {/* Import About Me Section  */}
                 <About/>
                 <div className="skills">
-                  <h3 className="title">Skills</h3>
+                  <h5 className="title">Skills</h5>
                    <ul className="list-skills">
                       <Skills/>
                    </ul>
                 </div>
                 <div className="contact">
-                  <h3 className="title">Contact-me</h3>
-                      <a href="https://github.com/abdallllaa/my-resum/raw/master/My%20resume%20.pdf" target="_blank"> My-Resume </a>
-                    - <a href="mailto: 3bdallah.dev@gmail.com" target="_blank">3bdallah.dev@gmail.com </a>  
+                  <h5 className="title">Contact-me</h5>
+                     <a href="mailto: 3bdallah.dev@gmail.com" target="_blank" rel="noreferrer">3bdallah.dev@gmail.com </a>  
                     - <a href="tel:01156448493">01156448493 </a>
-                    - <a href="https://github.com/3bdalah" target="_blank"> Github </a> 
-                    - <a href="https://www.linkedin.com/in/abdallah-abdelghaffar-65136614b/" target="_blank"> Linkedin</a>
+                    - <a href="https://github.com/3bdalah" target="_blank" rel="noreferrer"> Github </a> 
+                    - <a href="https://www.linkedin.com/in/abdallah-abdelghaffar-65136614b/" target="_blank" rel="noreferrer"> Linkedin</a>
                 </div>
               </div>
            </div>
-           <button className="hire-me"><a  target="_blank" href="https://github.com/abdallllaa/my-resum/raw/master/My%20resume%20.pdf">Hire-Me</a></button>
+           <button className="hire-me"><a  target="_blank" rel="noreferrer" href="https://github.com/abdallllaa/my-resum/raw/master/My%20resume%20.pdf">Hire-Me</a></button>
          </div>
       </section>
       

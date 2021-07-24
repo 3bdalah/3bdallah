@@ -1,7 +1,9 @@
 const posts = [
     {
       id:1,
+      name:"ahmed",
       slug:'first-post',
+      src:"/../public/images/nextjs.png",
       title_post:"hello one",
       text_1 : "Magna quis quis non reprehenderit consequat eiusmod aliqua eiusmod veniam.",
       text_2 : "Dolore excepteur mollit duis in incididunt dolor culpa dolore cillum.",

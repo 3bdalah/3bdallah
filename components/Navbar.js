@@ -15,18 +15,11 @@ const Navbar = () => {
       <header className="header">
           <div className='container'>
             <nav className="nav-cover">
-                <div className="cover-head">
-                  <Link href="/"> 
-                    <h3 className="logo">3bdallah</h3>
-                  </Link>
-                  <div className="head">
+                 
                   <Links/>
-                  </div>
-                  </div>
                   <ThemeToggle/>
                   
                   {/* {toggle? <MobileNav/> : null } */}
-                 <div className="menu" onClick={()=>setToggle(toggle => !toggle )}>  <AiOutlineMenu/></div>
             </nav>
           </div>
       </header>
