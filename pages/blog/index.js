@@ -34,7 +34,10 @@ const Posts = () => {
             </div>
         </div>
             </section>***/}
-
+        <Head>
+            <title>Blog</title>
+            <meta name="keywords" content="Blog" key="blog" />
+        </Head>
         <section className="blog">
             <div className="container">
                 <h3 className="under-working text-center">Under Developing</h3>
