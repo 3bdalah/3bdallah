@@ -1,12 +1,6 @@
 
 import Image from 'next/dist/client/image';
 
-
-
-
-
-
-
 import IMG from './../public/images/me.jpg';
 import uuid from 'react-uuid'
 const Card = ({id,title,desc,skills,git,demo}) => {

@@ -6,6 +6,7 @@ import Image from 'next/dist/client/image';
 const Posts = () => {
     return (
     <>
+        {/* 
          <Head>
             <title>blog</title>
             <meta name="keywords" content="blog" key="blog" />
@@ -16,9 +17,9 @@ const Posts = () => {
                 <h4 className="title">My Posts </h4>
                <div className="col-lg-4 col-md-6 col-sm-12">
                 {Posts_data.map(post => {
-                                return (<Link href={`/blog/`+post.id} className="read-more"key={post.id} ><a>
+                                return (<Link href={`/blog/`+post.slug} className="read-more"key={post.id} ><a>
                                 <div className="post">
-                                <Image src={post.src} alt={post.name} width={1280} height={720} className="img-post"/>
+                                <Image src={`/post.domains`} alt={post.name} width={1280} height={720} className="img-post"/>
                             
                                 <div className="content-post">
                                 <h4 className="title-post">{post.title_post}</h4>
@@ -32,7 +33,13 @@ const Posts = () => {
                </div>
             </div>
         </div>
-       </section>
+            </section>***/}
+
+        <section className="blog">
+            <div className="container">
+                <h3 className="under-working text-center">Under Developing</h3>
+            </div>
+        </section>
     </>);
 }
  

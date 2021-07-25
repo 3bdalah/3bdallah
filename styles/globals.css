@@ -2,7 +2,7 @@
 
 html,
 body {
-  /* color:#fff; */
+  color:#fff;
   padding: 0;
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
@@ -78,6 +78,7 @@ nav{
   justify-self: unset;
   align-items: center;
   border-bottom: 1px solid var(--clr-border-nav);
+  background: var(--clr-bg-primary);
 }
 /* Start Style head -> navbar */
 .nav-cover{
@@ -251,7 +252,9 @@ nav{
 .data-post{
   color:var(--clr-text-primary)
 }
-
+.under-working {
+  margin-top: 50px;
+}
 /* Single Post Data  */
 .img-blog{
   border-radius: 5px;
