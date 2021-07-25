@@ -232,6 +232,7 @@ nav{
 /* Page Blog style */
 .blog{
   height: 100vh;
+  color:var(--clr-text-primary)
 }
 .blog .post{
   margin-top: 50px;
