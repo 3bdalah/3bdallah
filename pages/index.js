@@ -28,7 +28,7 @@ export default function Home() {
                 <p className="text-center info-me">👋 Hi,I'm abdallah Frontend Engineer (junior), and a self-taught programmer the work I provide is of the highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
                 <div className="list-socail">
                     <ul className="list">
-                       <li><a href="https://twitter.com/3bdalIah_" target="_blank" rel="noreferrer" ><FiTwitter/></a></li>
+                       <li><a href="https://twitter.com/_3abdalah_" target="_blank" rel="noreferrer" ><FiTwitter/></a></li>
                        <li><a href="https://github.com/3bdalah" target="_blank" rel="noreferrer"><FiGithub/></a></li>
                        <li><a href="https://www.linkedin.com/in/abdallah-abdelghaffar-65136614b/" target="_blank" rel="noreferrer"><FiLinkedin/></a></li>
                     </ul>
