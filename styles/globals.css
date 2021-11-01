@@ -179,6 +179,26 @@ nav{
     color: var(--clr-text-primary);
 }
 
+/* start PArt Experaince */
+.experaince{
+  /* padding-inline-start: 0px; */
+  /* margin-left: -5px; */
+  list-style: none;
+  color: var(--clr-text-primary);
+
+}
+.intern-title{
+  margin: 0 0 10px 0;
+  line-height: 1.15;
+  font-size: 1rem;
+  font-weight:600;
+  text-transform:capitalize;
+}
+/* Created specail style  */
+.link{
+  font-weight: bold;
+}
+
 .skills .list-skills {
   padding-inline-start: 0px;
   margin-left: -5px;

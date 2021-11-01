@@ -55,5 +55,18 @@ const Skills = [
         id : 14,
         name :  "Figma"
     },
+    {
+        id : 15,
+        name :  "TypeScript"
+    },
+    {
+        id : 16,
+        name :  "Jira"
+    },
+    {
+        id : 17,
+        name :  "Agile"
+    },
+
 ];
 export default  Skills;

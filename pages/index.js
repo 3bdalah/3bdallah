@@ -25,7 +25,8 @@ export default function Home() {
                 <div className="box_img">
                 <Image src={Me} alt="abdallah "  width={150} height={150}  className="me-img"/>
                 </div>
-                <p className="text-center info-me">👋 Hi,I'm abdallah Frontend Engineer (junior), and a self-taught programmer the work I provide is of the highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
+                
+                <p className="text-center info-me">👋 Hi, Iُ m abdallah Frontend Engineer (junior), and a self-taught programmer the work I provide is of the highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
                 <div className="list-socail">
                     <ul className="list">
                        <li><a href="https://twitter.com/_3abdalah_" target="_blank" rel="noreferrer" ><FiTwitter/></a></li>
@@ -38,6 +39,16 @@ export default function Home() {
               <div className="col-lg-8 col-md-10 col-sm-12 mx-auto">
                 {/* Import About Me Section  */}
                 <About/>
+                <div className="experaince">
+                  <h5 className="title">Expreince</h5>
+                   <h6 className="intern-title"> - Internship At Robusta Studio Agu-2021 - Oct-2021</h6>
+                   <ul>
+                     <li>Worked with git (GitLab) and Jira and Agile.</li>
+                     <li>Created amazing tasks with React and JavaScript and other technology.</li>
+                     <li>Learned culture Robusta Studio.</li>
+                     <li>Participated in building project three-sixty <a className="link" href="https://three-sixty.vercel.app/login" >Live</a></li>
+                   </ul>
+                </div>
                 <div className="skills">
                   <h5 className="title">Skills</h5>
                    <ul className="list-skills">
