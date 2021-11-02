@@ -254,6 +254,10 @@ nav{
   height: 100vh;
   color:var(--clr-text-primary)
 }
+.blog .link__test__blog{
+  text-align: center;
+  margin-top:50px;
+}
 .blog .post{
   margin-top: 50px;
   color: var(--clr-text-primary);

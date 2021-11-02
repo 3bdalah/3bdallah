@@ -41,6 +41,7 @@ const Posts = () => {
         <section className="blog">
             <div className="container">
                 <h3 className="under-working text-center">Under Developing</h3>
+                <h5 className="link__test__blog"><Link href={`/blog/hello`} > test article hello</Link></h5>
             </div>
         </section>
     </>);
