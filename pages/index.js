@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { FiTwitter ,FiLinkedin,FiGithub} from 'react-icons/fi';
 import Image from 'next/image';
 import Me from '../public/images/me.jpg';
+
 import About from '../components/About';
 
 import Skills from '../components/skills';
