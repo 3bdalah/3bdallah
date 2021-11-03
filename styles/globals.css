@@ -336,6 +336,7 @@ nav{
   margin: 20px auto;
   background: var(--clr-bg-card-project);
   color:var(--clr-text-primary);
+  border:0.5px solid var(--clr-border-nav);
 }
 .projects .card-project .num-project{
   position:absolute;
