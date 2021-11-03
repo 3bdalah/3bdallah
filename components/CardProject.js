@@ -22,8 +22,8 @@ const Card = ({id,title,desc,skills,git,demo}) => {
                 })}
                 </div>
                 <div className="links-card">
-                   <a href={demo} target="_blank" rel="noreferrer">view project</a>
-                   <a href={git} target="_blank" rel="noreferrer">source code</a>
+                   <a href={demo} target="_blank" rel="noreferrer" className="btn_link">view project</a>
+                   <a href={git} target="_blank" rel="noreferrer" className="btn_link">source code</a>
                 </div>
             </div>
         {/* </div> */}

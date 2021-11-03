@@ -208,15 +208,12 @@ nav{
 }
 .skills .skill{
   margin: 10px 5px -5px 5px ;
-  /* background-color: #121212; */
-  background: var(--clr-bg-skill);
-  border: 1px solid var(--clr-text-primary);
   border: none;
   padding:2px 10px;
-  border-radius: 3px;
+  border-radius: 5px;
   color: var(--clr-text-primary);
-  /* list-style: none; */
- display: inline-block;
+  display: inline-block;
+  border:0.5px solid var(--clr-border-nav);
 }
 
 /* Contact Me */
@@ -237,6 +234,7 @@ nav{
 .hire-me a{
   padding: 5px 10px;
   color: var(--clr-border-nav);
+  font-weight: 800;
 }
 /* Page img not found */
 .box-notfound{
@@ -363,22 +361,30 @@ nav{
 .projects .card-project .skill{
   padding: 2px 5px;
   color:var(--clr-text-primary);
-  background: #0E141B;
-  background: var(--clr-bg-skill);
+  /* background: #0E141B; */
+  /* background: var(--clr-bg-skill); */
   margin-right:5px;
   border-radius: 5px;
   font-size: 15px;
+  
+  border:0.5px solid var(--clr-border-nav);
 }
 .projects .card-project .links-card{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top:20px;
-  font-weight: 700;
+  font-weight: 600;
   color:var(--clr-link);
+  
 }
-
-
+.projects .card-project .links-card .btn_link{
+  border:0.5px solid var(--clr-border-nav);
+  padding:5px 10px;
+  /* width:300px; */
+  /* background : #ddd; */
+  border-radius:5px;
+}
 /* start style Footer */
 
 .footer{
