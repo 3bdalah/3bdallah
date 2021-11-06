@@ -20,9 +20,9 @@ a {
 
 body,
 body[data-theme="light"] {
-  --clr-text-primary: #0E141B;
+  --clr-text-primary: black;
   --clr-text-secondary: #076963;
-  --clr-bg-primary: #F5F7FA;
+  --clr-bg-primary: white;
   --clr-bg-toggle: #1e90ff;
   --clr-bg-card-project: #fefefe;
   --clr-bg-skill:#D1E5F0;
