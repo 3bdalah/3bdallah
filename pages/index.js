@@ -65,7 +65,7 @@ export default function Home() {
                 </div>
               </div>
            </div>
-           <button className="hire-me"><a  target="_blank" rel="noreferrer" href="https://github.com/abdallllaa/my-resum/raw/master/My%20resume%20.pdf">Hire-Me</a></button>
+           <button className="hire-me"><a  target="_blank" rel="noreferrer" href="https://github.com/3bdalah/my-resum/raw/master/Abdallah%20CV.pdf">Hire-Me</a></button>
          </div>
       </section>
       
