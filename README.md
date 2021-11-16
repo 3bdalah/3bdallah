@@ -1,5 +1,7 @@
-## My Portfolio.
-(./public/images/design-portfolio.jpg)
+
+# My Portfolio.
+![Design preview for the portfolio and show my big projects builded](./public/images/design-portfolio.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
