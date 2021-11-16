@@ -1,9 +1,9 @@
 import {BsToggleOn} from 'react-icons/bs'
 import { useEffect, useState } from 'react';
 import useSound from 'use-sound';
-import boop from "../assests/audio/s.mp3";
+// import boop from "../assests/audio/s.mp3";
 const ThemeToggle = () => {
-    const [play] = useSound(boop);
+    // const [play] = useSound(boop);
     const [activeTheme,setActiveTheme] = useState("dark");
     let inactivetheme  = activeTheme  === "light" ? "dark": "light";
     // useEffect((){})
