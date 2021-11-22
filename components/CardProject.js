@@ -8,7 +8,7 @@ const Card = ({id,title,desc,skills,git,demo}) => {
        
             <div className="card-project">
                 <span className="num-project">{id}</span>
-                <Image src={IMG} alt="Photo-project" name={title}/>
+                //<Image src={IMG} alt="Photo-project" name={title}/>
                 <h4 className="title-project">{title}</h4>
                 <p className="info-project">{desc}</p>
                 <div className="skills">
