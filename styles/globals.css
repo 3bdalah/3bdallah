@@ -408,4 +408,11 @@ nav{
   justify-content: space-between;
   align-items: center;
   color: var(--clr-text-primary);
+  width: 66.4%;
+  margin: auto;
+}
+@media (max-width:800px){
+   .footer{
+      width:95%;
+   }
 }
