@@ -90,6 +90,11 @@ nav{
   border-radius: 15px;
   
 }
+@media (max-width:800px){
+   .header{
+      width:90%;
+   }
+}
 /* Start Style head -> navbar */
 .nav-cover{
   display: flex;
