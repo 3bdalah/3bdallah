@@ -64,7 +64,10 @@ body{
   text-transform: capitalize;
   font-weight: 600;
 }
-
+/* start content header */
+.content{
+   padding-top:30px;
+}
 /* Start Style head -> nav */
 nav{
 
@@ -81,6 +84,11 @@ nav{
   align-items: center;
   border-bottom: 1px solid var(--clr-border-nav);
   background: var(--clr-bg-primary);
+  width: 56.4%;
+  margin: 4px auto 0px auto;
+  border: 1px solid #111;
+  border-radius: 15px;
+  
 }
 /* Start Style head -> navbar */
 .nav-cover{
