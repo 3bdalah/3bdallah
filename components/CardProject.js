@@ -7,7 +7,7 @@ const Card = ({id,title,desc,skills,git,demo}) => {
     return (<>
        
             <div className="card-project">
-                <span className="num-project">{id}</span>
+                {/*<span className="num-project">{id}</span>*/}
                 {/* </div>  //<Image src={IMG} alt="Photo-project" name={title}/>*/}
                 <h4 className="title-project">{title}</h4>
                 <p className="info-project">{desc}</p>
