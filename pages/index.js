@@ -42,7 +42,7 @@ export default function Home() {
                 <About/>
                 <div className="experaince">
                   <h5 className="title">Experience</h5>
-                   <h6 className="intern-title"> - Internship At Robusta Studio Agu-2021 - Oct-2021</h6>
+                   <h6 className="intern-title"> - Internship At Robusta Studio Aug-2021 - Oct-2021</h6>
                    <ul>
                      <li>Worked with git (GitLab) and Jira and Agile.</li>
                      <li>Created amazing tasks with React and JavaScript and other technology.</li>
