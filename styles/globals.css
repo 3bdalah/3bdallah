@@ -22,9 +22,9 @@ body,
 body[data-theme="light"] {
   --clr-text-primary: black;
   --clr-text-secondary: #076963;
-  --clr-bg-primary: white;
+  --clr-bg-primary: #f9fafb;
   --clr-bg-toggle: #1e90ff;
-  --clr-bg-card-project: #fefefe;
+  --clr-bg-card-project: #f9fafb;
   --clr-bg-skill:#D1E5F0;
   --clr-bg-footer:#ddd;
   --clr-link : #444;
