@@ -87,7 +87,7 @@ nav{
   width: 56.4%;
   margin: 4px auto 0px auto;
   border: 1px solid var(--clr-border-nav);
-  border-radius: 15px;
+  border-radius: 10px;
   
 }
 @media (max-width:800px){
