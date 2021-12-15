@@ -5,7 +5,7 @@ import useSound from 'use-sound';
 const ThemeToggle = () => {
     // const [play] = useSound(boop);
     const [activeTheme,setActiveTheme] = useState("dark");
-    let inactivetheme  = activeTheme  === "light" ? "dark": "light";
+    let inactivetheme  = activeTheme  !== "light" ? "dark": "light";
     // useEffect((){})
     useEffect(()=> {
         document.body.dataset.theme = activeTheme;
