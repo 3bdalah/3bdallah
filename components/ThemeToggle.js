@@ -4,7 +4,7 @@ import useSound from 'use-sound';
 // import boop from "../assests/audio/s.mp3";
 const ThemeToggle = () => {
     // const [play] = useSound(boop);
-    const [activeTheme,setActiveTheme] = useState("light");
+    const [activeTheme,setActiveTheme] = useState("dark");
     let inactivetheme  = activeTheme  === "dark" ? "light" : "dark";
     // useEffect((){})
     useEffect(()=> {
