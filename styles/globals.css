@@ -18,7 +18,6 @@ a {
   box-sizing: border-box;
 }
 
-body,
 body[data-theme="light"] {
   --clr-text-primary: black;
   --clr-text-secondary: #076963;
@@ -34,6 +33,7 @@ body[data-theme="light"] {
   /* --clr-br-post: */
 }
 
+body,
 body[data-theme="dark"] {
   --clr-text-primary: #e3e3e3;
   --clr-text-secondary: #0E141B;
