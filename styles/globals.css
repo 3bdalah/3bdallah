@@ -77,7 +77,7 @@ nav{
 .header{
   position: sticky;
   position: -webkit-sticky;
-  top:15px;
+  top:0px;
   z-index: 99;
   display: flex;
   justify-self: unset;
