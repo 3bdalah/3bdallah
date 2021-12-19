@@ -75,8 +75,8 @@ nav{
   background: var(--clr-bg-primary);
 }
 .header{
-  position: sticky;
-  position: -webkit-sticky;
+  position: relative;
+  position: -webkit-relative;
   top:0px;
   z-index: 99;
   display: flex;
