@@ -27,7 +27,7 @@ export default function Home() {
                 <Image src={Me} alt="abdallah "  width={150} height={150}  className="me-img"/>
                 </div>
                 
-                <p className="text-center info-me">👋 Hi, Iُ m abdallah Frontend Engineer (junior), and a self-taught programmer the work I provide is of the highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
+                <p className="text-center info-me">👋 Hi, Iُ m abdallah Frontend Engineer (junior), and a self-taught programmer, I provide is of the highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
                 <div className="list-socail">
                     <ul className="list">
                        <li><a href="https://twitter.com/_3bdalIah_" target="_blank" rel="noreferrer" ><FiTwitter/></a></li>
