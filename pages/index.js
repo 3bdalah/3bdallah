@@ -47,7 +47,7 @@ export default function Home() {
                      <li>Worked with git (GitLab) and Jira and Agile.</li>
                      <li>Created amazing tasks with React and JavaScript and other technology.</li>
                      <li>Learned culture Robusta Studio.</li>
-                     <li>Participated in building project three-sixty <a className="link" href="https://three-sixty.vercel.app/login" >Live</a></li>
+                     <li>Participated in building project three-sixty ,it's tool tracking performance the employess</li>
                    </ul>
                 </div>
                 <div className="skills">
