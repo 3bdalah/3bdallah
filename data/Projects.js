@@ -34,6 +34,15 @@ const projects_data = [
         desc:"landing Page just practice",
         demo:"https://reloadacademy1.netlify.app/",
         git:"https://github.com/3bdalah/landing-page"
-    }
+    },
+    {
+        id: 5,
+        title: "Far Away",
+        img : "./img-public/project2.jpg",
+        skills: ['css','React'],
+        desc:"todo list add item and delete and packed item ",
+        demo:"https://first-app-3bdallah.vercel.app/",
+        git:"https://github.com/3bdalah/first-app"
+    },
 ];
 export default projects_data;
