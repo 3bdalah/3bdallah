@@ -46,6 +46,15 @@ const projects_data = [
     },
     {
         id: 6,
+        title: "The Bill",
+        img : "./img-public/project2.jpg",
+        skills: ['css',' React'],
+        desc: "the bill",
+        demo: "https://the-bill.vercel.app/",
+        git: "https://github.com/3bdalah/the-bill"
+    },
+    {
+        id: 7,
         title: "Blog",
         img : "./img-public/project4.jpg",
         skills: ['css', 'NextJs', 'react'],
