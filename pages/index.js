@@ -42,12 +42,18 @@ export default function Home() {
                 <About/>
                 <div className="experaince">
                   <h5 className="title">Experience</h5>
+                   <h6 className="intern-title"> - Internship as a mearn stack developer at Information Technology Institute ( ITI ) July-2023 - Nov-2023</h6>
+                   <ul>
+                     <li>built an advanced Dental Lab System with a user-friendly interface,
+    designed for internal staff to streamline job order creation and management, enhancing overall operational efficiency.</li>
+                     
+                   </ul>
                    <h6 className="intern-title"> - Internship At Robusta Studio Aug-2021 - Oct-2021</h6>
                    <ul>
-                     <li>Worked with git (GitLab) and Jira and Agile.</li>
+                     <li>Worked with git (GitLab), Jira, and Agile.</li>
                      <li>Created amazing tasks with React and JavaScript and other technology.</li>
                      <li>Learned culture Robusta Studio.</li>
-                     <li>Participated in building project three-sixty ,it's tool tracking performance the employess</li>
+                     <li>Participated in building project three-sixty, its tool tracking performance of the employees </li>
                    </ul>
                 </div>
                 <div className="skills">
@@ -65,7 +71,7 @@ export default function Home() {
                 </div>
               </div>
            </div>
-           <button className="hire-me"><a  target="_blank" rel="noreferrer" href="https://github.com/3bdalah/my-resum/raw/master/Abdallah%20CV.pdf">Hire-Me</a></button>
+           <button className="hire-me"><a  target="_blank" rel="noreferrer" href="https://flowcv.com/resume/p3fa3pga9f">Hire-Me</a></button>
          </div>
       </section>
       
