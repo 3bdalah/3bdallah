@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "engines": {
+  },"engines": {
   "node": "18.x"
-   },
+},
+
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
     "@mdx-js/mdx": "^1.6.22",
